@@ -460,6 +460,10 @@ def_function Incr_Data_Request_Completed_Counter(In_Result_Code string) flag
 	return (true)
 end def_function Incr_Data_Request_Completed_Counter
 
+def_function Whh_Test () flag
+	return (true)
+end def_function Whh_Test
+
 #--------------------------------------------------------------------------------
 #
 #function:  Set_Info_Before_Read_ID2MDN
