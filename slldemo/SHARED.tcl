@@ -25,6 +25,7 @@ behavior Global_Subroutine {
 %%      puts $OUTPUT [query Parse_Object behavior Subroutines]
 }\
 behavior Global_Proc {
+print ("change in honghaiw branch 1")
 %% proc CPU_Overload_Control_Check { OUTPUT dataview_name } {
 	if Determine_Traffic_Ctrl("LDAP_Call") != OLC_Action_Normal
 	then
