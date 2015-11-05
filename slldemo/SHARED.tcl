@@ -24,6 +24,7 @@ data include {
 behavior Global_Subroutine {
 %%      puts $OUTPUT [query Parse_Object behavior Subroutines]
 }\
+print ("test")
 behavior Global_Proc {
 %% proc CPU_Overload_Control_Check { OUTPUT dataview_name } {
 	if Determine_Traffic_Ctrl("LDAP_Call") != OLC_Action_Normal
